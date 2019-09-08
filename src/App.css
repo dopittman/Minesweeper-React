@@ -1,0 +1,37 @@
+body {
+  margin:0;
+  background-color: #f0f0f0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.board {
+  display:grid;
+  margin-top: 10%;
+}
+
+.row {
+  display:flex;
+  justify-content: center;
+  width:100%;
+}
+
+.tile {
+  background-color: #8f8f8f;
+  border: 5px outset silver;
+  height: 90px;
+  width: 100px;
+}
+
+.explored {
+  background-color: #d6d6d6;
+  border: 5px inset silver;
+  height: 90px;
+  width: 100px;
+}
